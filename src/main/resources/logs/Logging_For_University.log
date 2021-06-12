@@ -1,0 +1,37 @@
+12-06-2021 13:32:07.432 1772 [main] INFO  c.p.u.UniversityApplication - Starting UniversityApplication using Java 1.8.0_291 on LAPTOP-VCTLAN93 with PID 15812 (D:\university\target\classes started by mento in D:\university)
+12-06-2021 13:32:07.434 1774 [main] DEBUG c.p.u.UniversityApplication - Running with Spring Boot v2.5.1, Spring v5.3.8
+12-06-2021 13:32:07.437 1777 [main] INFO  c.p.u.UniversityApplication - No active profile set, falling back to default profiles: default
+12-06-2021 13:32:09.079 3419 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+12-06-2021 13:32:09.196 3536 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 94 ms. Found 1 JPA repository interfaces.
+12-06-2021 13:32:11.212 5552 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+12-06-2021 13:32:11.233 5573 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+12-06-2021 13:32:11.233 5573 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+12-06-2021 13:32:11.233 5573 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.46]
+12-06-2021 13:32:11.485 5825 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+12-06-2021 13:32:11.485 5825 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3912 ms
+12-06-2021 13:32:11.750 6090 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+12-06-2021 13:32:13.109 7449 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+12-06-2021 13:32:13.375 7715 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+12-06-2021 13:32:13.572 7912 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.32.Final
+12-06-2021 13:32:14.010 8350 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+12-06-2021 13:32:14.254 8594 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+12-06-2021 13:32:15.603 9943 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+12-06-2021 13:32:15.624 9964 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+12-06-2021 13:32:16.486 10826 [main] INFO  org.dozer.config.GlobalSettings - Trying to find Dozer configuration file: dozer.properties
+12-06-2021 13:32:16.515 10855 [main] WARN  org.dozer.config.GlobalSettings - Dozer configuration file not found: dozer.properties.  Using defaults for all Dozer global properties.
+12-06-2021 13:32:16.519 10859 [main] INFO  org.dozer.DozerInitializer - Initializing Dozer. Version: 5.5.0, Thread Name: main
+12-06-2021 13:32:16.521 10861 [main] INFO  org.dozer.jmx.JMXPlatformImpl - Dozer JMX MBean [org.dozer.jmx:type=DozerStatisticsController] auto registered with the Platform MBean Server
+12-06-2021 13:32:16.526 10866 [main] INFO  org.dozer.jmx.JMXPlatformImpl - Dozer JMX MBean [org.dozer.jmx:type=DozerAdminController] auto registered with the Platform MBean Server
+12-06-2021 13:32:16.526 10866 [main] INFO  org.dozer.DozerBeanMapper - Initializing a new instance of dozer bean mapper.
+12-06-2021 13:32:16.722 11062 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+12-06-2021 13:32:18.596 12936 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+12-06-2021 13:32:18.658 12998 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+12-06-2021 13:32:18.682 13022 [main] INFO  c.p.u.UniversityApplication - Started UniversityApplication in 12.449 seconds (JVM running for 13.608)
+12-06-2021 13:32:37.963 32303 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+12-06-2021 13:32:37.963 32303 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+12-06-2021 13:32:37.967 32307 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+12-06-2021 13:32:38.211 32551 [http-nio-8080-exec-2] INFO  org.dozer.DozerBeanMapper - Initializing a new instance of dozer bean mapper.
+12-06-2021 13:32:38.359 32699 [http-nio-8080-exec-2] INFO  c.p.u.service.StudentService - Method createStudent() was called to save a student in the database!
+12-06-2021 13:32:46.896 41236 [http-nio-8080-exec-5] INFO  org.dozer.DozerBeanMapper - Initializing a new instance of dozer bean mapper.
+12-06-2021 13:32:46.901 41241 [http-nio-8080-exec-5] INFO  c.p.u.service.StudentService - Method createStudent() was called to save a student in the database!
+12-06-2021 13:32:51.946 46286 [http-nio-8080-exec-6] INFO  c.p.u.service.StudentService - Method getAllStudents() was called to fetch all students from the database!
